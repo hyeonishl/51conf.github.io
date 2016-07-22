@@ -1,5 +1,5 @@
 #background {
-  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/background_.jpeg);
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://s3-us-west-1.amazonaws.com/51conf/background_.jpeg");
   background-repeat: round;
   width: 100%;
 }
@@ -854,7 +854,6 @@ hr.gm {
 }
 .sponsor-title {
   margin:3em;
-  font-size: large;
   text-decoration: underline;
 }
 /*------------------------------------------------------------------
