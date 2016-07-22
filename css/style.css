@@ -853,7 +853,8 @@ hr.gm {
   width: 50%;
 }
 .sponsor-title {
-  margin:2em;
+  margin:3em;
+  font-size: large;
   text-decoration: underline;
 }
 /*------------------------------------------------------------------
