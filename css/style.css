@@ -2,10 +2,11 @@
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://s3-us-west-1.amazonaws.com/51conf/background_.jpeg");
   background-repeat: round;
   width: 100%;
+  background-size: cover;
 }
 
 .btn-pink {
-  background-color: #ea2891 !important;
+  background-color: #E92992 !important;
   color: white !important;
 }
 
@@ -33,14 +34,14 @@
 
 .tabcordion li.active {
   color: white;
-  background-color: #1225d8;
+  background-color: #3D4EF0;
 }
 .nav-tabs > li > a {
-  color: #1225d8;
+  color: #3D4EF0;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
   color: white;
-  background-color: #1225d8;
+  background-color: #3D4EF0;
 }
 /* Schedule elements */
 .eng {
@@ -49,11 +50,11 @@
 }
 .career {
   font-weight: bold !important;
-  color: #fdb62b;
+  color: #FFB700;
 }
 .startup {
   font-weight: bold !important;
-  color: #1225d8;
+  color: #3D4EF0;
 }
 .schedule-bold {
   color: black;
@@ -219,7 +220,7 @@ body {
   transition: none;
 }
 #nav li.active a {
-  border-bottom: 2px solid #1225d8;
+  border-bottom: 2px solid #3D4EF0;
 }
 .nav.nav-tabs {
   border-bottom: 0 none;
@@ -233,7 +234,7 @@ body {
   border-radius: 0;
 }
 #nav a:hover{
-  border-bottom:2px solid #1225d8;
+  border-bottom:2px solid #3D4EF0;
   background:none;
 }
 /*jquery-sticky-menu*/
@@ -297,7 +298,7 @@ hr.gm {
   text-transform: uppercase;
 }
 .bg-yellow {
-  background: #1225d8 none repeat scroll 0 0;
+  background: #3D4EF0 none repeat scroll 0 0;
   height: 2px !important;
   margin: 14% 0;
   width: 30px;
@@ -318,8 +319,8 @@ hr.gm {
 	display:inline-block;
 }
 .digital:hover{
-  background:#1225d8;
-  border:2px solid #1225d8;
+  background:#3D4EF0;
+  border:2px solid #3D4EF0;
 }
 /*-------------------
 [ 2.2 Fawesome-Control ]
@@ -436,7 +437,7 @@ hr.gm {
 .team_icon i {
   font-size: 20px;
   margin: 15px 15px 25px;
-  color: #1225d8;
+  color: #3D4EF0;
   transition: all 0.3s ease 0s;
 }
 .team_icon  a:hover,.social_icon i :hover {
@@ -486,7 +487,7 @@ hr.gm {
 [5. What-We-Do ]
 --------------------------------------------------------------------*/
 .what_do.section_padding {
-  background: #1225d8 none repeat scroll 0 0;
+  background: #3D4EF0 none repeat scroll 0 0;
   color: #fff;
 }
 .blog-title p ,.what_do p {
@@ -867,7 +868,7 @@ hr.gm {
   padding-bottom: 30px;
 }
 .contact_icon i {
-  color: #1225d8;
+  color: #3D4EF0;
   font-size: 45px;
   margin-bottom: 15px;
 }
@@ -887,7 +888,7 @@ input, textarea {
   width: 100%;
 }
 input:focus,textarea:focus {
-  border: 1px solid #1225d8;
+  border: 1px solid #3D4EF0;
 }
 .required {
   font-size: 11px;
