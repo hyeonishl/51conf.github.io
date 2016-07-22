@@ -34,7 +34,11 @@
 /*-----------------------------------------------------------------*/
 /*1. Large Layout: 1900px. */
 @media only screen and (min-width: 1281px) {
-  
+  .contents {
+    margin: auto 0;
+    padding-top: 13em;
+    overflow: auto;
+  }
   .tab-pane {
     border: 1px solid #3D4EF0;
     padding: 90px 100px 80px 80px;
@@ -66,6 +70,11 @@
 }
 /*2. Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1280px) {
+  .contents {
+    margin: auto 0;
+    padding-top: 10em;
+    overflow: auto;
+  }
   .tab-pane {
     border: 1px solid #3D4EF0;
     padding: 90px 100px 80px 80px;
@@ -114,6 +123,11 @@
 }
 /*3. Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contents {
+    margin: auto 0;
+    padding-top: 6em;
+    overflow: auto;
+  }
 /*3.1 Header*/
 #nav,.slicknav_menu .slicknav_menutxt,.slicknav_item a i  {
   display:none;
@@ -289,6 +303,11 @@ h2 {
 /*4. Mobile Layout: 300px. */
 
 @media only screen and (max-width: 767px) {
+  .contents {
+    margin: auto 0;
+    padding-top: 4em;
+    overflow: auto;
+  }
 .landing,.landing div{
   height: 100%;
 }
