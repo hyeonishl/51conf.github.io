@@ -164,7 +164,7 @@ a:hover{
   background-color: white !important;
 }
 /*------------------------------------------------------------------
-[1. body ]
+[ body ]
 --------------------------------------------------------------------*/
 body {
 	background: #fff;
@@ -177,7 +177,7 @@ body {
     position:relative;
 }
 /*------------------------------------------------------------------
-[2. Header ]
+[ Header ]
 --------------------------------------------------------------------*/
 .sticky-wrapper {
   left: 0;
@@ -187,7 +187,7 @@ body {
   z-index: 9999;
 }
 /*-------------------
-[ 2.1 Logo ]
+[ Logo ]
 ---------------------*/
 .logo {
   max-width: 30px;
@@ -195,7 +195,7 @@ body {
   float: left;
 }
 /*-------------------
-[ 2.1 Mainmenu ]
+[ Mainmenu ]
 ---------------------*/
 .slicknav_menu {
 	display:none;
@@ -244,7 +244,7 @@ body {
   color:#777777;
 }
 /*------------------------------------------------------------------
-[2. Google Map ]
+[ Google Map ]
 --------------------------------------------------------------------*/
 html,body{height:100%;}
 hr.gm {
@@ -280,7 +280,7 @@ hr.gm {
   text-align: center;
 }
 /*-------------------
-[ 3.1 About-Text ]
+[ About-Text ]
 ---------------------*/
 
 .about_text:hover .black_number {
@@ -333,7 +333,7 @@ hr.gm {
   background-color: transparent !important;
 }
 /*------------------------------------------------------------------
-[5. What-We-Do ]
+[ What-We-Do ]
 --------------------------------------------------------------------*/
 .what_do.section_padding {
   background: #3D4EF0 none repeat scroll 0 0;
@@ -343,7 +343,7 @@ hr.gm {
   color: #fff;
 }
 /*-------------------
-[ 5.1 What-We-Do-text ]
+[ What-We-Do-text ]
 ---------------------*/
 .do_text i {
   font-size: 40px;
@@ -367,7 +367,7 @@ hr.gm {
 }
 
 /*------------------------------------------------------------------
-[6. Services ]
+[ Services ]
 --------------------------------------------------------------------*/
 .col-text-center{
 	float: none !important;
@@ -417,137 +417,7 @@ hr.gm {
 .block-title a h4:hover {
   color: #E7B02D;
 }
-/*------------------------------------------------------------------
-[7. Percent ]
---------------------------------------------------------------------*/
-.section_padding.text-center.tab_padding,.client.what_do.black-background{
-	background:#000;
-}
-#counter_h,#counter_happy {
-  color: #000;
-  font-family: "Oswald",sans-serif;
-  font-size: 40px;
-  letter-spacing: 2px;
-  line-height: 60px;
-}
-.single_counter span {
-  font-size: 12px;
-  letter-spacing: 2px;
-}
-.chart {
-  border-radius: 50%;
-  display: inline-block;
-  height: 120px;
-  position: relative;
-  text-align: center;
-  width: 120px;
-  margin: 0 0 30px;
-}
-.percent::after {
-  content: "%";
-  font-family: "Oswald",sans-serif;
-  font-weight: 100;
-}
-.chart canvas {
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-.percent {
-  display: inline-block;
-  font-family: "Oswald",sans-serif;
-  font-size: 25px;
-  font-weight: 100;
-  line-height: 125px;
-  z-index: 2;
-}
-.percent_text h5 {
-  color:#fff;
-  margin-bottom: 10px;
-}
-/*------------------------------------------------------------------
-[8. What ]
---------------------------------------------------------------------*/
-.how_to_work.section_padding.gallery {
-  padding-bottom: 0;
-}
-/*-------------------
-[ 8.1 Work-Menu ]
----------------------*/
-.work_text.section-title h1 {
-  padding-bottom: 15px;
-}
-.work_text.section-title p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  margin-bottom: 30px;
-}
-.menu_item ul{
-  margin:0;
-  padding:0;
-  list-style:none;
-  margin-top:25px;
-}
-.menu_item ul li {
-  color: #777777;
-  cursor: pointer;
-  display: block;
-  float: left;
-  font-size: 13px;
-  margin-left: 25px;
-  margin-right: 40px;
-  padding: 5px 0;
-}
-.menu_item ul li.active,.menu_item ul li:hover{
- border-bottom:1px solid #000;
-}
-/*-------------------
-[ 8.2 Work-Item ]
----------------------*/
-.gallery_item {
-  margin-top: 40px;
-  position: relative;
-}
-.single_items::after {
-  background: #000 none repeat scroll 0 0;
-  content: "";
-  height: 100%;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-.single_items {
-  float: left;
-  overflow: hidden;
-  position: relative;
-  transition: all 0.4s ease-in-out 0s;
-  width: 25%;
-  cursor: pointer;
-}
-.single_items img{
-  width:100%;
-}
-.popup_text {
-  left: 20%;
-  opacity: 0;
-  position: absolute;
-  top: 40%;
-  z-index: 5;
-}
-.single_items:hover.single_items:after {
-    transition: all 0.4s ease-in-out;
-	opacity:0.7;
-	z-index:2;
-}
-.single_items:hover .popup_text {
-	opacity:1;
-}
-.single_items:hover.single_items img{
-	transform:scale(1.2);
-}
+
 /*-------------------
 [ Speakers ]
 ---------------------*/
@@ -586,7 +456,7 @@ hr.gm {
   color:#fff;
 }
 /*------------------------------------------------------------------
-[ 9. Brand-Logo ]
+[ Sponsors ]
 --------------------------------------------------------------------*/
 .brand_logo {
   background: #eee none repeat scroll 0 0;
@@ -595,10 +465,6 @@ hr.gm {
 #brand_logo img {
   padding: 0 35px;
 }
-
-/*------------------------------------------------------------------
-[12. Client ]
---------------------------------------------------------------------*/
 .sponsor-contents img {
   padding: 0 35px;
 }
@@ -611,7 +477,7 @@ hr.gm {
   text-decoration: underline;
 }
 /*------------------------------------------------------------------
-[ 13. Contact ]
+[ Contact ]
 --------------------------------------------------------------------*/
 .contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/gm.png);
@@ -661,11 +527,11 @@ input:focus,textarea:focus {
   background-color: white;
 }
 /*------------------------------------------------------------------
-[ 15 Contact-Icon ]
+[ Contact-Icon ]
 --------------------------------------------------------------------*/
 .contact_section_padding{padding:50px 0;}
 /*------------------------------------------------------------------
-[ 16 Contact-Bottom ]
+[ Contact-Bottom ]
 --------------------------------------------------------------------*/
 .bottom_icon i{font-size:25px;}
 .contact-icon{
@@ -680,7 +546,7 @@ input:focus,textarea:focus {
   opacity:.5;
 }
 /*------------------------------------------------------------------
-[ 17 Footer ]
+[ Footer ]
 --------------------------------------------------------------------*/
 footer {
   background: rgb(37, 37, 37) none repeat scroll 0 0;
