@@ -14,10 +14,13 @@
   padding-right: 30px !important;
   padding-left: 30px !important;
 }
-
+.white-hr {
+  border-top: white !important;
+  margin-top: 0.5em;
+}
 /* FAQ page*/
 .faq {
-  background-color: #e6e6e6;
+  background-color: white;
   padding: 6em;
 }
 .q {
@@ -41,16 +44,16 @@
 }
 /* Schedule elements */
 .eng {
-  font-weight: bold !important;
   color: #e73092;
+  text-align: left;
 }
 .career {
-  font-weight: bold !important;
   color: #FFB700;
+  text-align: left;
 }
 .startup {
-  font-weight: bold !important;
   color: #3D4EF0;
+  text-align: left;
 }
 .schedule-bold {
   color: black;
